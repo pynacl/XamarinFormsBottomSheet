@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj",
+        "projectName": "BottomSheetDemo.Android",
+        "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj",
+        "packagesPath": "/Users/jakeellious/.nuget/packages/",
+        "outputPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/jakeellious/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "/Users/jakeellious/Documents/development/nuget": {},
+          "http://nuget.menards.net:8081/nuget/MTI_Repository": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj": {
+                "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj",
+        "projectName": "BottomSheetDemo",
+        "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj",
+        "packagesPath": "/Users/jakeellious/.nuget/packages/",
+        "outputPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jakeellious/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "/Users/jakeellious/Documents/development/nuget": {},
+          "http://nuget.menards.net:8081/nuget/MTI_Repository": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
