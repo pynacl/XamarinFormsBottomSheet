@@ -20,9 +20,7 @@ namespace BottomSheetDemo
 
         public void SetMainPage()
         {
-            page = FreshPageModelResolver.ResolvePageModel<BottomSheetPageModel>();
-            _mainNavContainer = new FreshNavigationContainer(page);
-            MainPage = _mainNavContainer;
+            MainPage = FreshPageModelResolver.ResolvePageModel<BottomSheetPageModel>();
         }
 
         protected override void OnStart()
