@@ -13,7 +13,7 @@
 namespace BottomSheetDemo.Pages.BottomSheetPage {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages/BottomSheetPage/BottomSheetPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\BottomSheetPage\\BottomSheetPage.xaml")]
     public partial class BottomSheetPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -29,12 +29,16 @@ namespace BottomSheetDemo.Pages.BottomSheetPage {
         private global::Xamarin.Forms.StackLayout bottomSheetContent;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Entry entry;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BottomSheetPage));
             BottomSheetPageModel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "BottomSheetPageModel");
             backgroundFade = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BoxView>(this, "backgroundFade");
             bottomSheet = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "bottomSheet");
             bottomSheetContent = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "bottomSheetContent");
+            entry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "entry");
         }
     }
 }

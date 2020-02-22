@@ -121,6 +121,18 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.Visual.Material/4.2.0.709249": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
       }
     }
   },
@@ -807,6 +819,27 @@
         "xamarin.forms.4.2.0.709249.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Xamarin.Forms.Visual.Material/4.2.0.709249": {
+      "sha512": "Vde5rx9LSojqP7rYBoFCfUsKRt+ZT8tfgUkeFEsmiv8Q+13hQz8NiLNHP7+9wJ6dGiNvY3aqwyFist1pjdA+kQ==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/4.2.0.709249",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoAndroid90/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Material.dll.mdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Material.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -814,34 +847,36 @@
       "FreshMvvm >= 3.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.2.0",
-      "Xamarin.Forms >= 4.2.0.709249"
+      "Xamarin.Forms >= 4.2.0.709249",
+      "Xamarin.Forms.Visual.Material >= 4.2.0.709249"
     ]
   },
   "packageFolders": {
-    "/Users/jakeellious/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Jake\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj",
       "projectName": "BottomSheetDemo",
-      "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj",
-      "packagesPath": "/Users/jakeellious/.nuget/packages/",
-      "outputPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/obj/",
+      "projectPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj",
+      "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "/Users/jakeellious/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "/Users/jakeellious/Documents/development/nuget": {},
-        "http://nuget.menards.net:8081/nuget/MTI_Repository": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -875,6 +910,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.2.0.709249, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
+            "target": "Package",
+            "version": "[4.2.0.709249, )"
           }
         },
         "imports": [
@@ -887,7 +926,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

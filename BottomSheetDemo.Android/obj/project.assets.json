@@ -836,13 +836,30 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/4.2.0.709249": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Design": "28.0.0.1",
+          "Xamarin.Android.Support.v7.AppCompat": "28.0.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid90/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid90/Xamarin.Forms.Material.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid10/_._": {}
+        }
+      },
       "BottomSheetDemo/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FreshMvvm": "3.0.0",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Forms": "4.2.0.709249",
+          "Xamarin.Forms.Visual.Material": "4.2.0.709249"
         },
         "compile": {
           "bin/placeholder/BottomSheetDemo.dll": {}
@@ -2030,6 +2047,27 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Visual.Material/4.2.0.709249": {
+      "sha512": "Vde5rx9LSojqP7rYBoFCfUsKRt+ZT8tfgUkeFEsmiv8Q+13hQz8NiLNHP7+9wJ6dGiNvY3aqwyFist1pjdA+kQ==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/4.2.0.709249",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoAndroid90/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Material.dll.mdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Material.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
+      ]
+    },
     "BottomSheetDemo/1.0.0": {
       "type": "project",
       "path": "../BottomSheetDemo/BottomSheetDemo.csproj",
@@ -2045,34 +2083,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/jakeellious/.nuget/packages/": {}
+    "C:\\Users\\Jake\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\BottomSheetDemo.Android.csproj",
       "projectName": "BottomSheetDemo.Android",
-      "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj",
-      "packagesPath": "/Users/jakeellious/.nuget/packages/",
-      "outputPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/obj/",
+      "projectPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\BottomSheetDemo.Android.csproj",
+      "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/jakeellious/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "/Users/jakeellious/Documents/development/nuget": {},
-        "http://nuget.menards.net:8081/nuget/MTI_Repository": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj": {
-              "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj"
+            "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj": {
+              "projectPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj"
             }
           }
         }

@@ -1,35 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj": {}
+    "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\BottomSheetDemo.Android.csproj": {}
   },
   "projects": {
-    "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj": {
+    "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\BottomSheetDemo.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\BottomSheetDemo.Android.csproj",
         "projectName": "BottomSheetDemo.Android",
-        "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/BottomSheetDemo.Android.csproj",
-        "packagesPath": "/Users/jakeellious/.nuget/packages/",
-        "outputPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo.Android/obj/",
+        "projectPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\BottomSheetDemo.Android.csproj",
+        "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/jakeellious/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
-          "/Users/jakeellious/Documents/development/nuget": {},
-          "http://nuget.menards.net:8081/nuget/MTI_Repository": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj": {
-                "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj"
+              "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj": {
+                "projectPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj"
               }
             }
           }
@@ -54,27 +58,28 @@
         }
       }
     },
-    "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj": {
+    "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj",
         "projectName": "BottomSheetDemo",
-        "projectPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/BottomSheetDemo.csproj",
-        "packagesPath": "/Users/jakeellious/.nuget/packages/",
-        "outputPath": "/Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/obj/",
+        "projectPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\BottomSheetDemo.csproj",
+        "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jake\\Documents\\development\\bottomsheetui\\BottomSheetDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/jakeellious/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "/Users/jakeellious/Documents/development/nuget": {},
-          "http://nuget.menards.net:8081/nuget/MTI_Repository": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -108,6 +113,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.2.0.709249, )"
+            },
+            "Xamarin.Forms.Visual.Material": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
             }
           },
           "imports": [
@@ -120,7 +129,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

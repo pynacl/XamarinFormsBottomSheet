@@ -11,3 +11,16 @@
 /Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/obj/Debug/netstandard2.0/ref/BottomSheetDemo.dll
 /Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/obj/Debug/netstandard2.0/BottomSheetDemo.pdb
 /Users/jakeellious/Projects/BottomSheetDemo/BottomSheetDemo/obj/Debug/netstandard2.0/BottomSheetDemo.csprojAssemblyReference.cache
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\bin\Debug\netstandard2.0\BottomSheetDemo.deps.json
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\bin\Debug\netstandard2.0\BottomSheetDemo.dll
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\bin\Debug\netstandard2.0\ref\BottomSheetDemo.dll
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\bin\Debug\netstandard2.0\BottomSheetDemo.pdb
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\BottomSheetDemo.csprojAssemblyReference.cache
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\Pages\BottomSheetPage\BottomSheetPage.xaml.g.cs
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\BottomSheetDemo.AssemblyInfoInputs.cache
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\BottomSheetDemo.AssemblyInfo.cs
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\BottomSheetDemo.dll
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\ref\BottomSheetDemo.dll
+C:\Users\Jake\Documents\development\bottomsheetui\BottomSheetDemo\obj\Debug\netstandard2.0\BottomSheetDemo.pdb

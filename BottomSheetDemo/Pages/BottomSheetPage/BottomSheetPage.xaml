@@ -4,6 +4,7 @@
              x:Class="BottomSheetDemo.Pages.BottomSheetPage.BottomSheetPage"
              x:Name="BottomSheetPageModel"
              BackgroundColor="White"
+             Visual="Material"
              Title="BottomSheet Demo">
     <ContentPage.Content>
         <RelativeLayout>
@@ -17,7 +18,6 @@
                                                                       Property=Width,
                                                                       Factor=1,
                                                                       Constant=0}">
-                <Label FontSize="Large" Text="Tap button below to open!" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
 
             <StackLayout
@@ -31,16 +31,14 @@
                                                                       Factor=1,
                                                                       Constant=0}">
                 <Button
-                    Margin="8,0,8,8"
-                    HeightRequest="50"
-                    AutomationId="BottomSheetButton"
-                    BackgroundColor="{DynamicResource Key=PrimaryBlue3}"
-                    BorderWidth="5"
-                    Command="{Binding OpenBottomSheet}"
-                    FontSize="Small"
-                    Text="Open Bottomsheet"
-                    TextColor="White"
-                    HorizontalOptions="FillAndExpand" />
+                Margin="30,0,30,20"
+                Padding="18"
+                BackgroundColor="{StaticResource NeutralGray4}"
+                CornerRadius="26"
+                FontSize="18"
+                Command="{Binding OpenBottomSheet}"
+                Text="Open Bottomsheet"
+                TextColor="White" />
             </StackLayout>
 
             
@@ -67,7 +65,7 @@
             </BoxView>
             <Frame
                 x:Name="bottomSheet"
-                Padding="1,4,1,8"
+                Padding="0,4,0,8"
                 BackgroundColor="White"
                 CornerRadius="8"
                 HasShadow="true"
@@ -92,136 +90,37 @@
                         CornerRadius="2"
                         HorizontalOptions="Center" />
                     <ScrollView>
-                        <StackLayout Padding="0">
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="2*" />
-                                    <RowDefinition Height=".7*" />
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
-                                <!--  TODO: This needs to be swapped out with real data  -->
-                                <Label
-                                    Grid.Row="0"
-                                    Grid.Column="0"
-                                    FontAttributes="Bold"
-                                    FontSize="Small"
-                                    Text="Image Placeholder"
-                                    HorizontalOptions="CenterAndExpand"
-                                    VerticalOptions="CenterAndExpand" />
-                                <StackLayout
-                                    Grid.Row="0"
-                                    Grid.Column="1">
-                                    <Grid ColumnSpacing="0" RowSpacing="0">
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="auto" />
-                                            <RowDefinition Height="auto" />
-                                            <RowDefinition Height="auto" />
-                                            <RowDefinition Height="auto" />
-                                            <RowDefinition Height="auto" />
-                                        </Grid.RowDefinitions>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
-                                        <Label
-                                            Grid.Row="0"
-                                            Grid.Column="0"
-                                            Grid.ColumnSpan="2"
-                                            FontAttributes="Bold"
-                                            FontSize="Medium"
-                                            HorizontalTextAlignment="Start"
-                                            Text="Some Product"
-                                            TextColor="{DynamicResource Key=NeutralGray5}" />
-                                        <Label
-                                            Grid.Row="1"
-                                            Grid.Column="0"
-                                            Grid.ColumnSpan="2"
-                                            Margin="0,4,0,0"
-                                            HorizontalTextAlignment="Start"
-                                            Text="Product description"
-                                            TextColor="{DynamicResource Key=NeutralGray4}" />
-                                        <Label
-                                            Grid.Row="2"
-                                            Grid.Column="0"
-                                            Margin="0,4,0,5"
-                                            HorizontalTextAlignment="Start"
-                                            LineBreakMode="NoWrap"
-                                            Text="Quantity"
-                                            TextColor="{DynamicResource Key=NeutralGray4}" />
-                                        <Label
-                                            Grid.Row="2"
-                                            Grid.Column="1"
-                                            Margin="0,4,0,5"
-                                            FontAttributes="Bold"
-                                            HorizontalTextAlignment="Start"
-                                            LineBreakMode="NoWrap"
-                                            Text="723"
-                                            TextColor="{DynamicResource Key=NeutralGray4}" />
-                                        <Label
-                                            Grid.Row="3"
-                                            Grid.Column="0"
-                                            Margin="0,0,0,5"
-                                            HorizontalTextAlignment="Start"
-                                            LineBreakMode="NoWrap"
-                                            Text="Sales"
-                                            TextColor="{DynamicResource Key=NeutralGray4}" />
-                                        <Label
-                                            Grid.Row="3"
-                                            Grid.Column="1"
-                                            Margin="0,0,0,5"
-                                            FontAttributes="Bold"
-                                            HorizontalTextAlignment="Start"
-                                            LineBreakMode="NoWrap"
-                                            Text="531"
-                                            TextColor="{DynamicResource Key=NeutralGray4}" />
-                                        <Label
-                                            Grid.Row="4"
-                                            Grid.Column="0"
-                                            Margin="0,0,0,8"
-                                            HorizontalTextAlignment="Start"
-                                            LineBreakMode="NoWrap"
-                                            Text="Returns"
-                                            TextColor="{DynamicResource Key=NeutralGray4}" />
-                                        <Label
-                                            Grid.Row="4"
-                                            Grid.Column="1"
-                                            Margin="0,0,0,8"
-                                            FontAttributes="Bold"
-                                            HorizontalTextAlignment="Start"
-                                            LineBreakMode="NoWrap"
-                                            Text="8"
-                                            TextColor="{DynamicResource Key=NeutralGray4}" />
-                                    </Grid>
-                                </StackLayout>
-                                
-                                <Button
-                                    Grid.Row="2"
-                                    Grid.Column="0"
-                                    HeightRequest="40"
-                                    BackgroundColor="{DynamicResource Key=PrimaryBlue3}"
-                                    Command="{Binding Something}"
-                                    FontSize="Small"
-                                    CornerRadius="5"
-                                    Text="Something"
-                                    TextColor="White"
-                                    VerticalOptions="Center" />
-                                <Button
-                                    Grid.Row="2"
-                                    Grid.Column="1"
-                                    HeightRequest="40"
-                                    BackgroundColor="{DynamicResource Key=PrimaryBlue3}"
-                                    Command="{Binding Something}"
-                                    FontSize="Small"
-                                    CornerRadius="5"
-                                    Text="Something"
-                                    TextColor="White"
-                                    VerticalOptions="Center" />
-                            </Grid>
-                        </StackLayout>
+                        <Grid
+            ColumnSpacing="20"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+
+                            <Entry x:Name="entry" Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="30,10,30,30"
+                Placeholder="Enter Something" />
+
+                            <Button
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="30,0,30,20"
+                Padding="18"
+                BackgroundColor="{StaticResource NeutralGray4}"
+                CornerRadius="26"
+                FontSize="18"
+                Text="Do Something"
+                TextColor="White" />
+                        </Grid>
                     </ScrollView>
                 </StackLayout>
 
